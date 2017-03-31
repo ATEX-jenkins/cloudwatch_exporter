@@ -530,7 +530,7 @@ public class CloudWatchCollector extends Collector
                 return thread;
             }
         });
-        es.scheduleAtFixedRate(this::doCollect, 15, 15, TimeUnit.SECONDS);
+        es.scheduleAtFixedRate(this::doCollect, 60, 60, TimeUnit.SECONDS);
         return super.register(registry);
     }
 }

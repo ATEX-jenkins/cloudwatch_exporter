@@ -3,9 +3,9 @@
 
   <groupId>io.prometheus.cloudwatch</groupId>
   <artifactId>cloudwatch_exporter</artifactId>
-  <version>0.4-SNAPSHOT</version>
+  <version>0.4-ms-SNAPSHOT</version>
   <description>
-    An exporter for AWS CloudWatch metrics, for use with Prometheus.
+      (Atex MS fork) of An exporter for AWS CloudWatch metrics, for use with Prometheus.
   </description>
   <url>http://github.com/prometheus/cloudwatch_exporter</url>
 
